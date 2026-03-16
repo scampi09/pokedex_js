@@ -1,0 +1,150 @@
+/* POKEDEX DESING */
+
+.pokedexContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokedexImg {
+    padding-top: 2rem;
+    margin: 0 auto;
+    position: relative;
+    width: 20rem;
+}
+.pokedexPhoto{
+    display: block;
+}
+
+.pokedexPokemonNumber{
+    position: absolute;
+    top: 48.68%;
+    left: 43%;
+    display: block;
+    z-index: 100;
+    font-size: 15px;
+}
+
+.bulb{
+    position: absolute;
+    top: 40%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    margin-bottom: 10rem;
+}
+
+.pokemonNaam{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 16.1rem;
+    margin-left: 2rem;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+/* D-PAD */
+.D-Pad {
+    /* define variable sizes depending on current minimum viewport size */
+    /* using linear equation y = mx + b for points (x1,y1) and (x2,y2) */
+    --button-size: 30px; /* (240,70)(1080,245) */
+    --button-text: 0px; /* (360,12)(1080, 16) */
+    margin-left: 40rem;
+    bottom: 0;
+    margin-bottom: 7.8rem;
+    position: absolute;
+    z-index: 90;
+    color: black;
+}
+
+.D-Pad, .D-Pad>* {
+    /* Default Flexbox row containers */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+
+}
+.D-Pad, .btn-col {
+    /* Flexbox column containers */
+    flex-direction: column;
+}
+.btn-col {
+    width: var(--button-size)
+}
+.btn-row { 
+    background-color: rgb(0, 0, 0);
+    width: calc(3 * var(--button-size)); /* creates center space */
+    justify-content: space-between;      /* push buttons to either side */
+}
+.btn-col > *,  /* Using wildcards so any element will work, not only <button> */
+.btn-row > * {
+    background-color: rgb(0, 0, 0);
+
+    font-size: var(--button-text);
+
+    width: var(--button-size);
+    aspect-ratio: 1; /* make it a square */
+}
+
+.center{
+    background-color: transparent;
+}
+
+/* STATS */
+.statsContainer{
+    position: absolute;
+    left: 41.4%;
+    top: 27.5%;
+    z-index: 1000;
+    width: 12rem;
+    min-height: 8rem;
+    border-radius: 5px;
+    background-color: rgb(170, 170, 170);
+    display: none;
+    flex-direction: column;
+}
+
+
+.statsContainerUpbar{
+    width:300px;
+    height:20px;
+    background:#ccc;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.searchInput{
+    position: absolute;
+    z-index: 100;
+    border-radius: 6px;
+    border: none;
+    padding: 0.5rem;
+    width: 7rem;
+    height: 1.7rem;
+    background-color: rgb(228, 228, 228);
+    bottom: 0;
+    margin-bottom: 11.7rem;
+    margin-right: 8.5rem;
+}
+
+.extraBtn{
+    position: absolute;
+    background-color: rgb(18, 39, 18);
+    width: 1.8rem;
+    height: 1.8rem;
+    bottom: 0;
+    margin-bottom: 8.4rem;
+    margin-right: 12.5rem;
+    border-radius: 50%;
+}
+
+.extraBtn2{
+    position: absolute;
+    background-color: rgb(1, 32, 1);
+    width: 1.8rem;
+    height: 1.8rem;
+    bottom: 0;
+    margin-bottom: 8.4rem;
+    margin-right: 4.5rem;
+    border-radius: 50%;
+}
