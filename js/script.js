@@ -1,7 +1,7 @@
 import { btnDownShowText, fetchPokemon } from "./library.js"
 import { btnUpShowText } from "./library.js"
 
-
+//
 const pokedexContainer = document.querySelector("#pokedexContainer")
 const buttonright = document.querySelector("#buttonRight")
 const buttonLeft = document.querySelector("#buttonLeft")
