@@ -1,6 +1,4 @@
-import { btnDownShowText, fetchPokemon } from "./library.js"
-import { btnUpShowText } from "./library.js"
-
+import { fetchPokemon, btnUpShowText, btnDownShowText } from "./library.js"
 //
 const pokedexContainer = document.querySelector("#pokedexContainer")
 const buttonright = document.querySelector("#buttonRight")

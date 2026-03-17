@@ -1,7 +1,5 @@
 let cachedPokemon = null;
 
-// this makes it os i dont keep fetching new data when pressing a button
-
 
 export function fetchPokemon(id) {
     const pokemonfoto = document.querySelector("#pokedexPhoto");
@@ -151,7 +149,7 @@ export function btnUpShowText(id) {
         });
 }
 
-export function btnDownShowText(id) {
+ export function btnDownShowText(id) {
     let specAttac = document.querySelector("#specAttac");
     let specDefence = document.querySelector("#specDefence");
     let baseSpeed = document.querySelector("#baseSpeed");
