@@ -1,6 +1,5 @@
 let cachedPokemon = null;
 
-
 export function fetchPokemon(id) {
     const pokemonfoto = document.querySelector("#pokedexPhoto");
     const pokemonnaam = document.querySelector("#pokedexPokemonNaam");
@@ -15,17 +14,33 @@ export function fetchPokemon(id) {
             pokemonnaam.innerHTML = "";
             pokemonnummer.innerHTML = "";
 
-            // dit is voor de pokemon foto
-            let afbeelding = document.createElement("img");
-            afbeelding.src = data.sprites.front_default;
-            afbeelding.classList.add("bulb");
-            pokemonfoto.appendChild(afbeelding);
-
+            if (Math.random() < 0.10) {  
+                // dit is voor de pokemon foto
+                let afbeelding = document.createElement("img");
+                afbeelding.src = data.sprites.front_default;
+                afbeelding.classList.add("bulb");
+                pokemonfoto.appendChild(afbeelding);
             // dit is voor de pokemon naam
-            let text = document.createElement("p");
-            text.textContent = data.species.name;
-            text.classList.add("pokemonNaam");
-            pokemonnaam.appendChild(text);
+
+                let text = document.createElement("p");
+                text.textContent = data.species.name;
+                text.classList.add("pokemonNaam");
+                pokemonnaam.appendChild(text);
+            }
+            else {
+                let afbeelding = document.createElement("img");
+                afbeelding.src = data.sprites.front_shiny;
+                afbeelding.classList.add("bulb");
+                pokemonfoto.appendChild(afbeelding);
+            // dit is voor de pokemon naam
+
+                let text = document.createElement("p");
+                text.textContent = `${data.species.name}*`;
+                text.classList.add("pokemonNaam");
+                pokemonnaam.appendChild(text);
+            }
+            // dit is voor de pokemon naam
+            
 
             // dit is voor het pokemon nummer
             let nummer = document.createElement("p");
