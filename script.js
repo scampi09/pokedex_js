@@ -10,7 +10,8 @@ const pokemonnaam = document.querySelector("#pokedexPokemonNaam")
 const statsContainerUp = document.querySelector("#statsContainerUp")
 const statsContainerDown = document.querySelector("#statsContainerDown")
 const searchPokemon = document.querySelector("#searchInput")
-
+const pokedexImg = document.querySelector("#pokedexImg")
+const fullPokedexScreen = document.querySelector("#Pokedex")
 
 // starts everything at this pokemon
 let index = 384
@@ -94,3 +95,8 @@ searchPokemon.addEventListener("keydown", function(event){
         statsContainerDown.style.display="none"
     }
 })  
+
+// if you click on the photo you can catch the pokemon
+pokedexImg.addEventListener("click", function(){
+    fullPokedexScreen.style.display = "none"
+})

@@ -1,4 +1,7 @@
 /* POKEDEX DESING */
+.Pokedex{
+    display: block;
+}
 
 .pokedexContainer{
     display: flex;

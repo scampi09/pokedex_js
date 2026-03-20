@@ -14,7 +14,7 @@ export function fetchPokemon(id) {
             pokemonnaam.innerHTML = "";
             pokemonnummer.innerHTML = "";
 
-            if (Math.random() < 0.10) {  
+            if (Math.random() > 0.10) {  
                 // dit is voor de pokemon foto
                 let afbeelding = document.createElement("img");
                 afbeelding.src = data.sprites.front_default;
