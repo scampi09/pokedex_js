@@ -44,7 +44,7 @@
 
 .pokemonNaam{
     position: absolute;
-    left: 45%;
+    left: 53%;
     top: 50%;
     transform: translate(-50%, -50%);
     display: block;
@@ -56,8 +56,8 @@
     /* using linear equation y = mx + b for points (x1,y1) and (x2,y2) */
     --button-size: 30px; /* (240,70)(1080,245) */
     --button-text: 0px; /* (360,12)(1080, 16) */
-    left: 52%;
-    top: 61%;
+    left: 50.5%;
+    top: 62%;
     position: absolute;
     z-index: 90;
     color: black;
@@ -138,19 +138,73 @@
     background-color: rgb(18, 39, 18);
     width: 1.8rem;
     height: 1.8rem;
-    bottom: 0;
-    margin-bottom: 8.4rem;
-    margin-right: 12.5rem;
     border-radius: 50%;
 }
 
 .extraBtn2{
     position: absolute;
     background-color: rgb(1, 32, 1);
+    border-radius: 50%;
     width: 1.8rem;
     height: 1.8rem;
-    bottom: 0;
-    margin-bottom: 8.4rem;
-    margin-right: 4.5rem;
-    border-radius: 50%;
+}
+
+
+/* MEDIA QUERY FOR IPHONE 16*/
+@media screen and (max-width: 414px) {
+    .Pokedex {
+        width: 100%;
+        height: 100%;
+    }
+
+    .pokedexImg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .pokedexPhoto {
+        width: 100%;
+        height: 100%;
+    }
+
+    .pokedexPokemonNumber {
+        top: 41%;
+        left: 27%;
+
+    }
+
+    .pokemonNaam {
+        left: 64%;
+        top: 42%;
+    }
+
+    .statsContainer {
+        width: 80%;
+        height: 60%;
+    }
+
+    .bulb {
+        top: 33%;
+        left: 50%;
+    }
+
+    .D-Pad {
+        left: 55%;
+        top: 55%;
+    }
+    
+    .searchInput{
+        left: 18%;
+        top: 55%;
+    }
+
+    .extraBtn{
+        left: 18%;
+        top: 62%;
+    }
+
+    .extraBtn2{
+        left: 38%;
+        top: 62%;
+    }
 }

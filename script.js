@@ -95,8 +95,3 @@ searchPokemon.addEventListener("keydown", function(event){
         statsContainerDown.style.display="none"
     }
 })  
-
-// if you click on the photo you can catch the pokemon
-pokedexImg.addEventListener("click", function(){
-    fullPokedexScreen.style.display = "none"
-})
