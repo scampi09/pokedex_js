@@ -168,14 +168,14 @@
     }
 
     .pokedexPokemonNumber {
-        top: 41%;
+        top: 37%;
         left: 27%;
 
     }
 
     .pokemonNaam {
         left: 64%;
-        top: 42%;
+        top: 38%;
     }
 
     .statsContainer {
@@ -184,27 +184,27 @@
     }
 
     .bulb {
-        top: 33%;
+        top: 28%;
         left: 50%;
     }
 
     .D-Pad {
         left: 55%;
-        top: 55%;
+        top: 50%;
     }
     
     .searchInput{
         left: 18%;
-        top: 55%;
+        top: 50%;
     }
 
     .extraBtn{
         left: 18%;
-        top: 62%;
+        top: 58%;
     }
 
     .extraBtn2{
         left: 38%;
-        top: 62%;
+        top: 58%;
     }
 }
