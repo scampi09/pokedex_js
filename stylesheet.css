@@ -9,6 +9,11 @@
     align-items: center;
 }
 
+.Pokedex{
+    width: 20rem;
+    margin: 0 auto;
+}
+
 .pokedexImg {
     padding-top: 2rem;
     margin: 0 auto;
@@ -39,9 +44,8 @@
 
 .pokemonNaam{
     position: absolute;
-    bottom: 0;
-    margin-bottom: 16.1rem;
-    margin-left: 2rem;
+    left: 45%;
+    top: 50%;
     transform: translate(-50%, -50%);
     display: block;
 }
@@ -52,9 +56,8 @@
     /* using linear equation y = mx + b for points (x1,y1) and (x2,y2) */
     --button-size: 30px; /* (240,70)(1080,245) */
     --button-text: 0px; /* (360,12)(1080, 16) */
-    margin-left: 40rem;
-    bottom: 0;
-    margin-bottom: 7.8rem;
+    left: 52%;
+    top: 61%;
     position: absolute;
     z-index: 90;
     color: black;
