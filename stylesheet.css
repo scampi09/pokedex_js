@@ -155,7 +155,7 @@
 
 
 /* MEDIA QUERY FOR IPHONE 16*/
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 393px) {
     .Pokedex {
         width: 100%;
         height: 100%;
