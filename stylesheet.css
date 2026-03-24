@@ -139,6 +139,8 @@
     width: 1.8rem;
     height: 1.8rem;
     border-radius: 50%;
+    left: 46%;
+    top: 73%;
 }
 
 .extraBtn2{
@@ -147,6 +149,8 @@
     border-radius: 50%;
     width: 1.8rem;
     height: 1.8rem;
+    left: 40.7%;
+    top: 73%;
 }
 
 
@@ -200,11 +204,11 @@
 
     .extraBtn{
         left: 18%;
-        top: 58%;
+        top: 65%;
     }
 
     .extraBtn2{
         left: 38%;
-        top: 58%;
+        top: 65%;
     }
 }
