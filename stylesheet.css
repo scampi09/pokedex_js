@@ -59,7 +59,7 @@
     left: 50.5%;
     top: 62%;
     position: absolute;
-    z-index: 90;
+    z-index: 900;
     color: black;
 }
 
@@ -209,5 +209,12 @@
     .extraBtn2{
         left: 38%;
         top: 73%;
+    }
+
+    .statsContainer{
+        width: 14rem;
+        height: 9.3rem;
+        left: 16%;
+        top: 37%;
     }
 }
