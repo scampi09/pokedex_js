@@ -14,7 +14,7 @@ const pokedexImg = document.querySelector("#pokedexImg")
 const fullPokedexScreen = document.querySelector("#Pokedex")
 
 // starts everything at this pokemon
-let index = 384
+let index = 145
 
 // this makes it so theres always 1 pokemon on screen
 fetchPokemon(index)
