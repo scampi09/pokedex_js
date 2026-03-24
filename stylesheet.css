@@ -178,7 +178,7 @@
 
     .pokemonNaam {
         left: 64%;
-        top: 88%;
+        top: 46%;
     }
 
     .statsContainer {
@@ -189,7 +189,6 @@
     .bulb {
         top: 41%;
         left: 50%;
-        display: none;
     }
 
     .D-Pad {
