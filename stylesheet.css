@@ -4,7 +4,7 @@
 }
 
 .pokedexContainer{
-    display: none;
+    display: block;
     justify-content: center;
     align-items: center;
 }
@@ -188,27 +188,27 @@
     }
 
     .bulb {
-        top: 28%;
-        left: 50%;
+        top: 20%;
+        left: 0%;
     }
 
     .D-Pad {
         left: 55%;
-        top: 50%;
+        top: 40%;
     }
     
     .searchInput{
         left: 18%;
-        top: 50%;
+        top: 40%;
     }
 
     .extraBtn{
         left: 18%;
-        top: 65%;
+        top: 55%;
     }
 
     .extraBtn2{
         left: 38%;
-        top: 65%;
+        top: 55%;
     }
 }
