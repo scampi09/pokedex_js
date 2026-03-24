@@ -172,9 +172,8 @@
     }
 
     .pokedexPokemonNumber {
-        top: 45%;
+        top: 51%;
         left: 27%;
-
     }
 
     .pokemonNaam {
@@ -188,17 +187,17 @@
     }
 
     .bulb {
-        top: 50%;
+        top: 35%;
         left: 50%;
     }
 
     .D-Pad {
         left: 55%;
-        top: 60%;
+        top: 63%;
     }
     
     .searchInput{
-        left: 18%;
+        left: 15%;
         top: 63%;
     }
 
@@ -208,7 +207,7 @@
     }
 
     .extraBtn2{
-        left: 38%;
+        left: 40%;
         top: 73%;
     }
 }
